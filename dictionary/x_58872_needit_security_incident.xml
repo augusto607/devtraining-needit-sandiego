@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="73fbd5fd2f906110b9ead5f62799b601" extends="incident" label="Security Incident" max_length="40" name="x_58872_needit_security_incident" type="collection">
+        <element label="CVE Code" mandatory="true" max_length="20" name="cve_code" type="string"/>
+        <element label="User ID" max_length="40" name="user_id" reference="sys_user" reference_qual="user_nameSTARTSWITH^EQ" reference_qual_condition="user_nameSTARTSWITH^EQ" type="reference"/>
+    </element>
+</database>
